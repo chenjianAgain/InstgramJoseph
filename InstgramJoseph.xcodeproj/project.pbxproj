@@ -18,7 +18,6 @@
 		793AB17A1D5216B0002F7A22 /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 793AB1761D5216B0002F7A22 /* AWSCore.framework */; };
 		793AB17B1D5216B0002F7A22 /* AWSDynamoDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 793AB1771D5216B0002F7A22 /* AWSDynamoDB.framework */; };
 		793AB17C1D5216B0002F7A22 /* AWSS3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 793AB1781D5216B0002F7A22 /* AWSS3.framework */; };
-		793AB17F1D52236E002F7A22 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 793AB17E1D52236E002F7A22 /* GoogleService-Info.plist */; };
 		793AB1811D5225DA002F7A22 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 793AB1801D5225DA002F7A22 /* GoogleSignIn.bundle */; };
 		793AB1881D5225EF002F7A22 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 793AB1821D5225EF002F7A22 /* GoogleSignIn.framework */; };
 		793AB1891D5225EF002F7A22 /* GoogleAppUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 793AB1831D5225EF002F7A22 /* GoogleAppUtilities.framework */; };
@@ -43,6 +42,7 @@
 		798237DA1D5315D1000B5645 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798237D91D5315D1000B5645 /* Follower.swift */; };
 		798237DC1D53253D000B5645 /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798237DB1D53253D000B5645 /* DatabaseService.swift */; };
 		798237DE1D532BF3000B5645 /* UserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798237DD1D532BF3000B5645 /* UserTableViewController.swift */; };
+		79D02ABA1D92B6B00010F2A3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79D02AB91D92B6B00010F2A3 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,7 +98,6 @@
 		793AB1771D5216B0002F7A22 /* AWSDynamoDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSDynamoDB.framework; path = Frameworks/AWSDynamoDB.framework; sourceTree = "<group>"; };
 		793AB1781D5216B0002F7A22 /* AWSS3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSS3.framework; path = Frameworks/AWSS3.framework; sourceTree = "<group>"; };
 		793AB17D1D52170B002F7A22 /* InstgramJoseph_Bridging_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstgramJoseph_Bridging_Header.h; sourceTree = "<group>"; };
-		793AB17E1D52236E002F7A22 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		793AB1801D5225DA002F7A22 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleSignIn.bundle; path = Frameworks/GoogleSignIn.bundle; sourceTree = "<group>"; };
 		793AB1821D5225EF002F7A22 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = Frameworks/GoogleSignIn.framework; sourceTree = "<group>"; };
 		793AB1831D5225EF002F7A22 /* GoogleAppUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAppUtilities.framework; path = Frameworks/GoogleAppUtilities.framework; sourceTree = "<group>"; };
@@ -115,6 +114,8 @@
 		798237D91D5315D1000B5645 /* Follower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		798237DB1D53253D000B5645 /* DatabaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
 		798237DD1D532BF3000B5645 /* UserTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewController.swift; sourceTree = "<group>"; };
+		799926491D929EFB009D6E0D /* InstgramJoseph.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = InstgramJoseph.entitlements; sourceTree = "<group>"; };
+		79D02AB91D92B6B00010F2A3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,7 +187,8 @@
 		793AB1451D5214FE002F7A22 /* InstgramJoseph */ = {
 			isa = PBXGroup;
 			children = (
-				793AB17E1D52236E002F7A22 /* GoogleService-Info.plist */,
+				79D02AB91D92B6B00010F2A3 /* GoogleService-Info.plist */,
+				799926491D929EFB009D6E0D /* InstgramJoseph.entitlements */,
 				793AB1461D5214FE002F7A22 /* AppDelegate.swift */,
 				793AB14A1D5214FE002F7A22 /* Main.storyboard */,
 				793AB14D1D5214FE002F7A22 /* Assets.xcassets */,
@@ -314,6 +316,11 @@
 						DevelopmentTeam = K8Q7X2W64D;
 						DevelopmentTeamName = "Jian Chen (Personal Team)";
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					793AB1561D5214FF002F7A22 = {
 						CreatedOnToolsVersion = 8.0;
@@ -354,7 +361,7 @@
 			files = (
 				793AB1511D5214FE002F7A22 /* LaunchScreen.storyboard in Resources */,
 				793AB1811D5225DA002F7A22 /* GoogleSignIn.bundle in Resources */,
-				793AB17F1D52236E002F7A22 /* GoogleService-Info.plist in Resources */,
+				79D02ABA1D92B6B00010F2A3 /* GoogleService-Info.plist in Resources */,
 				793AB14E1D5214FE002F7A22 /* Assets.xcassets in Resources */,
 				793AB14C1D5214FE002F7A22 /* Main.storyboard in Resources */,
 			);
@@ -534,12 +541,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = InstgramJoseph/InstgramJoseph.entitlements;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
 				);
 				INFOPLIST_FILE = InstgramJoseph/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(OTHER_LDFLAGS)",
@@ -556,12 +564,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = InstgramJoseph/InstgramJoseph.entitlements;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
 				);
 				INFOPLIST_FILE = InstgramJoseph/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(OTHER_LDFLAGS)",

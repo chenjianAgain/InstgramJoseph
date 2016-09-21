@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ViewController.signInToCognito(GIDGoogleUser) -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "credentialsProvider.getIdentityId()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.(signInToCognito(GIDGoogleUser) -&gt; ()).(closure #1):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "dataset.getAll()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.signIn(GIDSignIn!, didSignInForUser : GIDGoogleUser, withError : NSError!) -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "user.profile.name">
+            </PersistentString>
+            <PersistentString
+               value = "googleIdToken">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
